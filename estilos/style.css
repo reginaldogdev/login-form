@@ -8,6 +8,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+body * {
+    box-sizing: border-box;
+}
+
 .main-login {
     width: 100vw;
     height: 100vh;
@@ -29,6 +33,7 @@ body {
 .left-login > h1 {
     font-size: 3vw;
     color: #77ffc0;
+    text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.600);
 }
 
 .left-login-image {
@@ -44,7 +49,7 @@ body {
 }
 
 .card-login {
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
